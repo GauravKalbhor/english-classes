@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Learning</title>
+
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input[type=text], input[type=password]{
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display:inline-bl3ock;
+            border: 1px solid rgb(94, 157, 183);
+            box-sizing: border-box;
+        }
+        button{
+            background-color: green;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover{
+            opacity: 0.8;
+        }
+        .imagecontanir{
+            text-align: center;
+            margin: 24px 0 12px 0;
+            position: relative;
+        }
+        img.avatar{
+            width: 50%;
+            border-radius: 50%;
+        }
+        .modal{
+            background-color: rgb(94, 157, 183);
+            overflow: auto;
+            padding-top: 40px;
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+            z-index: 1;
+            position: fixed;
+        }
+        .modal-content{
+            background-color: rgb(226, 235, 229);
+            margin: 5% auto 15% auto;
+            border: 5% solid rgb(156, 76, 76);
+            width: 70%;
+           
+        }
+        .container{
+            padding: 16px;
+        }
+        span.pws{
+            float: right;
+            padding-top: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="modal">
+        <form class="modal-content animate">
+            <br>
+            <p style="text-align: right;"><a href="mainpage.html">Skip now / Do it latter </a></p>
+          <div class="imagecontanir">
+              <img src="english.jpg" / class="avatar">
+          </div>
+            <div class="container">
+              <label>
+                Username
+              </label>
+              <input type="text" placeholder="Username" />
+              <br>
+              <label>
+                Password
+              </label>
+              <input type="password" placeholder="Password" />
+              <br>
+              <input type="checkbox"> Remember me
+              <button input type="submit" value="Login"> Login </button>
+              
+              <label>
+                <p>Forget <a href="#">Password</a> </p>
+              </label>
+              <label>
+                <p>No Account? <a href="signup.html">Signup</a></p>
+              </label>
+
+            </div>
+        </form>
+    </div>
+</body>
+</html>
